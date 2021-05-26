@@ -5,8 +5,8 @@
 //  Created by 许滨麟 on 2021/5/23.
 //
 
-import SwiftUI
 import CoreData
+import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
@@ -25,7 +25,7 @@ struct ContentView: View {
         }
         .toolbar {
             #if os(iOS)
-            EditButton()
+                EditButton()
             #endif
 
             Button(action: addItem) {

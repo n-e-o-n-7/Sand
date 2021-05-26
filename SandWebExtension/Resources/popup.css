@@ -1,0 +1,25 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    width: 100px;
+    padding: 0px 1px;
+
+    font-family: system-ui;
+    text-align: center;
+}
+
+.radio{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.radio > label{
+    font-size: 0.7em
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}

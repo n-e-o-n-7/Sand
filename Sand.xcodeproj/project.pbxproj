@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9377DB5265A835300F646DB /* DictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377DB4265A835300F646DB /* DictView.swift */; };
+		E9377DB6265A835300F646DB /* DictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377DB4265A835300F646DB /* DictView.swift */; };
+		E9377E36265AA65000F646DB /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E35265AA65000F646DB /* SQLiteDatabase.swift */; };
+		E9377E37265AA65000F646DB /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E35265AA65000F646DB /* SQLiteDatabase.swift */; };
+		E9377E46265AB93400F646DB /* Stardict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E45265AB93400F646DB /* Stardict.swift */; };
+		E9377E47265AB93400F646DB /* Stardict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E45265AB93400F646DB /* Stardict.swift */; };
+		E9377E67265AC0EC00F646DB /* SQLiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E66265AC0EC00F646DB /* SQLiteController.swift */; };
+		E9377E68265AC0EC00F646DB /* SQLiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E66265AC0EC00F646DB /* SQLiteController.swift */; };
+		E9377E6F265AC11300F646DB /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E6E265AC11300F646DB /* SQLTable.swift */; };
+		E9377E70265AC11300F646DB /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E6E265AC11300F646DB /* SQLTable.swift */; };
+		E9377E8F265B9A7700F646DB /* ecdict.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E9377DBC265A83BF00F646DB /* ecdict.sqlite */; };
+		E9377E95265B9A9300F646DB /* ecdict.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E9377DBC265A83BF00F646DB /* ecdict.sqlite */; };
 		E9A1F9F3265A6B1100540355 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F9F2265A6B1100540355 /* Tests_iOS.swift */; };
 		E9A1F9FE265A6B1100540355 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F9FD265A6B1100540355 /* Tests_macOS.swift */; };
 		E9A1FA00265A6B1100540355 /* Sand.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F9D4265A6B0F00540355 /* Sand.xcdatamodeld */; };
@@ -19,6 +31,24 @@
 		E9A1FA07265A6B1100540355 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1F9D8265A6B0F00540355 /* Persistence.swift */; };
 		E9A1FA08265A6B1100540355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A1F9D9265A6B1100540355 /* Assets.xcassets */; };
 		E9A1FA09265A6B1100540355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A1F9D9265A6B1100540355 /* Assets.xcassets */; };
+		E9A1FA23265A6BC600540355 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A1FA22265A6BC600540355 /* Cocoa.framework */; };
+		E9A1FA26265A6BC600540355 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A1FA25265A6BC600540355 /* SafariWebExtensionHandler.swift */; };
+		E9A1FA29265A6BC700540355 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA28265A6BC700540355 /* _locales */; };
+		E9A1FA2B265A6BC700540355 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA2A265A6BC700540355 /* images */; };
+		E9A1FA2D265A6BC700540355 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA2C265A6BC700540355 /* manifest.json */; };
+		E9A1FA2F265A6BC700540355 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA2E265A6BC700540355 /* background.js */; };
+		E9A1FA31265A6BC700540355 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA30265A6BC700540355 /* content.js */; };
+		E9A1FA33265A6BC700540355 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA32265A6BC700540355 /* popup.html */; };
+		E9A1FA35265A6BC700540355 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA34265A6BC700540355 /* popup.css */; };
+		E9A1FA37265A6BC700540355 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E9A1FA36265A6BC700540355 /* popup.js */; };
+		E9A1FA3C265A6BC700540355 /* SandWebExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E9A1FA20265A6BC600540355 /* SandWebExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9B702A6265E74D40005CC48 /* ecdict.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E9377DBC265A83BF00F646DB /* ecdict.sqlite */; };
+		E9CE9C42265BD60000D8B66A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE9C41265BD60000D8B66A /* MainView.swift */; };
+		E9CE9C43265BD60000D8B66A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CE9C41265BD60000D8B66A /* MainView.swift */; };
+		E9D4E99C265E039E00A7204A /* SQLiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E66265AC0EC00F646DB /* SQLiteController.swift */; };
+		E9D4E9A2265E03A000A7204A /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E35265AA65000F646DB /* SQLiteDatabase.swift */; };
+		E9D4E9A8265E03A100A7204A /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E6E265AC11300F646DB /* SQLTable.swift */; };
+		E9D4E9AE265E03A300A7204A /* Stardict.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9377E45265AB93400F646DB /* Stardict.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +66,36 @@
 			remoteGlobalIDString = E9A1F9E5265A6B1100540355;
 			remoteInfo = "Sand (macOS)";
 		};
+		E9A1FA3A265A6BC700540355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A1F9CF265A6B0F00540355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A1FA1F265A6BC600540355;
+			remoteInfo = SandWebExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E9A1FA40265A6BC700540355 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9A1FA3C265A6BC700540355 /* SandWebExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E9377DB4265A835300F646DB /* DictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictView.swift; sourceTree = "<group>"; };
+		E9377DBC265A83BF00F646DB /* ecdict.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ecdict.sqlite; sourceTree = "<group>"; };
+		E9377E35265AA65000F646DB /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		E9377E45265AB93400F646DB /* Stardict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stardict.swift; sourceTree = "<group>"; };
+		E9377E66265AC0EC00F646DB /* SQLiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteController.swift; sourceTree = "<group>"; };
+		E9377E6E265AC11300F646DB /* SQLTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
 		E9A1F9D5265A6B0F00540355 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		E9A1F9D6265A6B0F00540355 /* SandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandApp.swift; sourceTree = "<group>"; };
 		E9A1F9D7265A6B0F00540355 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +112,20 @@
 		E9A1F9F9265A6B1100540355 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A1F9FD265A6B1100540355 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E9A1F9FF265A6B1100540355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A1FA20265A6BC600540355 /* SandWebExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SandWebExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A1FA22265A6BC600540355 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9A1FA25265A6BC600540355 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E9A1FA28265A6BC700540355 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		E9A1FA2A265A6BC700540355 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E9A1FA2C265A6BC700540355 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		E9A1FA2E265A6BC700540355 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		E9A1FA30265A6BC700540355 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E9A1FA32265A6BC700540355 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E9A1FA34265A6BC700540355 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		E9A1FA36265A6BC700540355 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		E9A1FA38265A6BC700540355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A1FA39265A6BC700540355 /* SandWebExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SandWebExtension.entitlements; sourceTree = "<group>"; };
+		E9CE9C41265BD60000D8B66A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +157,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9A1FA1D265A6BC600540355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A1FA23265A6BC600540355 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9377E4D265AC01000F646DB /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1F9D4265A6B0F00540355 /* Sand.xcdatamodeld */,
+				E9A1F9D8265A6B0F00540355 /* Persistence.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		E9377E4E265AC02000F646DB /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				E9377DBC265A83BF00F646DB /* ecdict.sqlite */,
+				E9377E66265AC0EC00F646DB /* SQLiteController.swift */,
+				E9377E35265AA65000F646DB /* SQLiteDatabase.swift */,
+				E9377E6E265AC11300F646DB /* SQLTable.swift */,
+				E9377E45265AB93400F646DB /* Stardict.swift */,
+			);
+			path = Sqlite;
+			sourceTree = "<group>";
+		};
 		E9A1F9CE265A6B0F00540355 = {
 			isa = PBXGroup;
 			children = (
 				E9A1F9D3265A6B0F00540355 /* Shared */,
 				E9A1F9E0265A6B1100540355 /* iOS */,
 				E9A1F9E7265A6B1100540355 /* macOS */,
+				E9A1FA24265A6BC600540355 /* SandWebExtension */,
 				E9A1F9F1265A6B1100540355 /* Tests iOS */,
 				E9A1F9FC265A6B1100540355 /* Tests macOS */,
+				E9A1FA21265A6BC600540355 /* Frameworks */,
 				E9A1F9DF265A6B1100540355 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,11 +206,13 @@
 		E9A1F9D3265A6B0F00540355 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E9377E4E265AC02000F646DB /* Sqlite */,
+				E9377E4D265AC01000F646DB /* Coredata */,
 				E9A1F9D6265A6B0F00540355 /* SandApp.swift */,
 				E9A1F9D7265A6B0F00540355 /* ContentView.swift */,
-				E9A1F9D8265A6B0F00540355 /* Persistence.swift */,
+				E9377DB4265A835300F646DB /* DictView.swift */,
+				E9CE9C41265BD60000D8B66A /* MainView.swift */,
 				E9A1F9D9265A6B1100540355 /* Assets.xcassets */,
-				E9A1F9D4265A6B0F00540355 /* Sand.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -120,6 +224,7 @@
 				E9A1F9E6265A6B1100540355 /* Sand.app */,
 				E9A1F9EE265A6B1100540355 /* Tests iOS.xctest */,
 				E9A1F9F9265A6B1100540355 /* Tests macOS.xctest */,
+				E9A1FA20265A6BC600540355 /* SandWebExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +264,40 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		E9A1FA21265A6BC600540355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1FA22265A6BC600540355 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9A1FA24265A6BC600540355 /* SandWebExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1FA25265A6BC600540355 /* SafariWebExtensionHandler.swift */,
+				E9A1FA38265A6BC700540355 /* Info.plist */,
+				E9A1FA39265A6BC700540355 /* SandWebExtension.entitlements */,
+				E9A1FA27265A6BC700540355 /* Resources */,
+			);
+			path = SandWebExtension;
+			sourceTree = "<group>";
+		};
+		E9A1FA27265A6BC700540355 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9A1FA28265A6BC700540355 /* _locales */,
+				E9A1FA2A265A6BC700540355 /* images */,
+				E9A1FA2C265A6BC700540355 /* manifest.json */,
+				E9A1FA2E265A6BC700540355 /* background.js */,
+				E9A1FA30265A6BC700540355 /* content.js */,
+				E9A1FA36265A6BC700540355 /* popup.js */,
+				E9A1FA32265A6BC700540355 /* popup.html */,
+				E9A1FA34265A6BC700540355 /* popup.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +314,8 @@
 			dependencies = (
 			);
 			name = "Sand (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "Sand (iOS)";
 			productReference = E9A1F9DE265A6B1100540355 /* Sand.app */;
 			productType = "com.apple.product-type.application";
@@ -186,10 +327,12 @@
 				E9A1F9E2265A6B1100540355 /* Sources */,
 				E9A1F9E3265A6B1100540355 /* Frameworks */,
 				E9A1F9E4265A6B1100540355 /* Resources */,
+				E9A1FA40265A6BC700540355 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E9A1FA3B265A6BC700540355 /* PBXTargetDependency */,
 			);
 			name = "Sand (macOS)";
 			productName = "Sand (macOS)";
@@ -232,6 +375,23 @@
 			productReference = E9A1F9F9265A6B1100540355 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E9A1FA1F265A6BC600540355 /* SandWebExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A1FA3D265A6BC700540355 /* Build configuration list for PBXNativeTarget "SandWebExtension" */;
+			buildPhases = (
+				E9A1FA1C265A6BC600540355 /* Sources */,
+				E9A1FA1D265A6BC600540355 /* Frameworks */,
+				E9A1FA1E265A6BC600540355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandWebExtension;
+			productName = SandWebExtension;
+			productReference = E9A1FA20265A6BC600540355 /* SandWebExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,6 +415,9 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = E9A1F9E5265A6B1100540355;
 					};
+					E9A1FA1F265A6BC600540355 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = E9A1F9D2265A6B0F00540355 /* Build configuration list for PBXProject "Sand" */;
@@ -266,6 +429,8 @@
 				Base,
 			);
 			mainGroup = E9A1F9CE265A6B0F00540355;
+			packageReferences = (
+			);
 			productRefGroup = E9A1F9DF265A6B1100540355 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,6 +439,7 @@
 				E9A1F9E5265A6B1100540355 /* Sand (macOS) */,
 				E9A1F9ED265A6B1100540355 /* Tests iOS */,
 				E9A1F9F8265A6B1100540355 /* Tests macOS */,
+				E9A1FA1F265A6BC600540355 /* SandWebExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -283,6 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9377E8F265B9A7700F646DB /* ecdict.sqlite in Resources */,
 				E9A1FA08265A6B1100540355 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9377E95265B9A9300F646DB /* ecdict.sqlite in Resources */,
 				E9A1FA09265A6B1100540355 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +477,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9A1FA1E265A6BC600540355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B702A6265E74D40005CC48 /* ecdict.sqlite in Resources */,
+				E9A1FA2F265A6BC700540355 /* background.js in Resources */,
+				E9A1FA35265A6BC700540355 /* popup.css in Resources */,
+				E9A1FA33265A6BC700540355 /* popup.html in Resources */,
+				E9A1FA2B265A6BC700540355 /* images in Resources */,
+				E9A1FA2D265A6BC700540355 /* manifest.json in Resources */,
+				E9A1FA29265A6BC700540355 /* _locales in Resources */,
+				E9A1FA31265A6BC700540355 /* content.js in Resources */,
+				E9A1FA37265A6BC700540355 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -319,7 +503,13 @@
 				E9A1FA00265A6B1100540355 /* Sand.xcdatamodeld in Sources */,
 				E9A1FA06265A6B1100540355 /* Persistence.swift in Sources */,
 				E9A1FA02265A6B1100540355 /* SandApp.swift in Sources */,
+				E9CE9C42265BD60000D8B66A /* MainView.swift in Sources */,
+				E9377E67265AC0EC00F646DB /* SQLiteController.swift in Sources */,
+				E9377DB5265A835300F646DB /* DictView.swift in Sources */,
 				E9A1FA04265A6B1100540355 /* ContentView.swift in Sources */,
+				E9377E36265AA65000F646DB /* SQLiteDatabase.swift in Sources */,
+				E9377E46265AB93400F646DB /* Stardict.swift in Sources */,
+				E9377E6F265AC11300F646DB /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +520,13 @@
 				E9A1FA01265A6B1100540355 /* Sand.xcdatamodeld in Sources */,
 				E9A1FA07265A6B1100540355 /* Persistence.swift in Sources */,
 				E9A1FA03265A6B1100540355 /* SandApp.swift in Sources */,
+				E9CE9C43265BD60000D8B66A /* MainView.swift in Sources */,
+				E9377E68265AC0EC00F646DB /* SQLiteController.swift in Sources */,
+				E9377DB6265A835300F646DB /* DictView.swift in Sources */,
 				E9A1FA05265A6B1100540355 /* ContentView.swift in Sources */,
+				E9377E37265AA65000F646DB /* SQLiteDatabase.swift in Sources */,
+				E9377E47265AB93400F646DB /* Stardict.swift in Sources */,
+				E9377E70265AC11300F646DB /* SQLTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +546,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9A1FA1C265A6BC600540355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A1FA26265A6BC600540355 /* SafariWebExtensionHandler.swift in Sources */,
+				E9D4E9A8265E03A100A7204A /* SQLTable.swift in Sources */,
+				E9D4E9AE265E03A300A7204A /* Stardict.swift in Sources */,
+				E9D4E99C265E039E00A7204A /* SQLiteController.swift in Sources */,
+				E9D4E9A2265E03A000A7204A /* SQLiteDatabase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -362,6 +570,11 @@
 			isa = PBXTargetDependency;
 			target = E9A1F9E5265A6B1100540355 /* Sand (macOS) */;
 			targetProxy = E9A1F9FA265A6B1100540355 /* PBXContainerItemProxy */;
+		};
+		E9A1FA3B265A6BC700540355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A1FA1F265A6BC600540355 /* SandWebExtension */;
+			targetProxy = E9A1FA3A265A6BC700540355 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -525,6 +738,7 @@
 		E9A1FA10265A6B1100540355 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -549,6 +763,7 @@
 		E9A1FA11265A6B1100540355 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
@@ -659,6 +874,50 @@
 			};
 			name = Release;
 		};
+		E9A1FA3E265A6BC700540355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SandWebExtension/SandWebExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGX843SUB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SandWebExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Aether.Sand.SandWebExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9A1FA3F265A6BC700540355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SandWebExtension/SandWebExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGX843SUB7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SandWebExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = Aether.Sand.SandWebExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -703,6 +962,15 @@
 			buildConfigurations = (
 				E9A1FA16265A6B1100540355 /* Debug */,
 				E9A1FA17265A6B1100540355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A1FA3D265A6BC700540355 /* Build configuration list for PBXNativeTarget "SandWebExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A1FA3E265A6BC700540355 /* Debug */,
+				E9A1FA3F265A6BC700540355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
